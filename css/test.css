@@ -1,0 +1,33 @@
+.main_box{
+    margin: 100px auto;
+
+    display: -webkit-box;
+    display: -moz-box;
+    display: -o-flex;
+    padding: 10px;
+    width: 1000px;
+    background-color: aquamarine;
+    -webkit-box-align: baseline;
+}
+.box1{
+    padding: 20px;
+    margin: 10px;
+    background-color: deepskyblue;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+}
+.box2{
+    padding: 20px;
+    margin: 10px;
+    background-color: deepskyblue;
+}
+.box3{
+    padding: 20px;
+    margin: 10px;
+    background-color: deepskyblue;
+}
+.box4{
+    padding: 20px;
+    margin: 10px;
+    background-color: deepskyblue;
+}

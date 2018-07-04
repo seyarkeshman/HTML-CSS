@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+   font: bold 26px Tahoma;
+}
+h2{
+   font: bold 20px Tahoma;
+}
+body{
+}
+#main_body{
+    width: 1000px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+#main_body header {
+    text-align: center;
+    padding: 20px;
+    background-color: deepskyblue;
+}
+#main_body nav{
+ background-color: aqua;
+}
+#main_body nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+#main_body #main_section{
+  width: 660px;
+    margin: 20px;
+}
+#main_body #main_section article{
+    margin: 10px ;
+    padding: 10px;
+    border: 1px solid black;
+}
+#main_body aside{
+    float: left;
+}
