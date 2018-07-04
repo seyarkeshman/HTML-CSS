@@ -9,6 +9,7 @@ h2{
    font: bold 20px Tahoma;
 }
 body{
+
 }
 #main_body{
     width: 1000px;
@@ -27,16 +28,42 @@ body{
     list-style: none;
     display: inline-block;
     padding: 10px;
+    padding-left: 0;
+}
+#main_body nav ul li a{
+    text-decoration: none;
+}
+#main_body nav ul li a:hover{
+    background-color: white;
+    padding: 10px;
 }
 #main_body #main_section{
   width: 660px;
     margin: 20px;
+    display: inline-block;
 }
 #main_body #main_section article{
     margin: 10px ;
     padding: 10px;
     border: 1px solid black;
+    background-color: #b09b93;
 }
+#main_body #main_section article footer{
+    text-align: right;
+
+}
+
 #main_body aside{
-    float: left;
+    float: right;
+    width: 240px;
+    margin: 30px 10px;
+    padding: 20px;
+    background-color: aqua;
+
+}
+#main_body #main_footer{
+    clear: both;
+    padding: 20px;
+    border-top: 2px solid deepskyblue;
+    text-align: center;
 }
