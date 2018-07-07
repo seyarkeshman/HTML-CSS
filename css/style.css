@@ -50,7 +50,7 @@ body{
 }
 #main_body #main_section article footer{
     text-align: right;
-
+    -webkit-box-flex: 1;
 }
 
 #main_body aside{
